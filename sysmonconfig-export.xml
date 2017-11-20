@@ -142,6 +142,13 @@
 			<Image condition="begin with">C:\Program Files\Realtek\</Image> <!--Realtek:Driver: routine actions-->
 			<ParentImage condition="end with">C:\Program Files\DellTPad\HidMonitorSvc.exe</ParentImage>
 			<ParentImage condition="end with">C:\Program Files\Realtek\Audio\HDA\RtkAudioService64.exe</ParentImage> <!--Realtek:Driver: routine actions-->
+			<!--SECTION: Splunk-->
+			<Image condition="end with">C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe</Image>
+			<Image condition="end with">C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe</Image>	
+			<Image condition="end with">C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe</Image>
+			<Image condition="end with">C:\Program Files\SplunkUniversalForwarder\bin\splunk-winprintmon.exe</Image>
+			<Image condition="end with">C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe</Image>
+			<Image condition="end with">C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe</Image>
 			<!--SECTION: Dropbox-->
 			<Image condition="end with">C:\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe</Image> <!--Dropbox:Updater: Lots of command-line arguments-->
 			<ParentImage condition="end with">C:\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe</ParentImage>
